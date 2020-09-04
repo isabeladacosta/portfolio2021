@@ -1,0 +1,20 @@
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #d20d4c;
+    width: 0vw;
+    height: 100vw;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    z-index: 999;
+    pointer-events: none;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Isabela Costa - Portfolio</title>
+        <link rel="stylesheet" href="styles/main.min.css">
+		<link rel="stylesheet" href="https://use.typekit.net/gdg8keg.css">
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- TweenMax - GSAP -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			document.documentElement.className = "js";
+				var supportsCssVars = function supportsCssVars() {
+				var e,
+					t = document.createElement("style");
+				return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+				};
+			supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+		</script>
+	</head>
+	<body data-barba="wrapper">
+		<div class="load-container">
+			<div class="loading-screen"></div>
+		</div>
+
+		<main data-barba="container" data-barba-namespace="home">
+			<div class="frame">
+				<h1 class="frame__title"><a href="index.html" style="color:white">Isabela Costa</a></h1>
+				<div class="frame__links">
+					<a href="#">About</a>
+					<a href="mailto:isabelaa.a@live.com">Contact</a>
+				</div>
+				<h3 class="frame__initials"></h3>
+				
+				
+			</div>
+			<div class="content project_page">
+                <p class="projectpage_title"><a>AR & VR</a></p>
+                <h3 class="projectpage_description">I started to learn AR & VR development during my time working at UFOMAMMOOT. I worked on a series of small projects in order to study both technologies. I used development tools like Unity and WebGL to build both software and web based experiences. The following projects are only a few selected from many others I've worked on.<br><br></h3>
+			</div>
+			<div class="section">
+                
+                <div class="section_pp_description">
+                    <h3 class="projectpage_description projectpage_title">Virtual Reality</h3>
+                    <h3 class="projectpage_description">WebGL VR experience where the user is able to move inside the train on movement and look to the city through the window. For this project I had to set up the VR enviroment for the web, adjust the 3D objects to the camera and create a teleportation movement for the player inside the train.</h3>
+                </div>
+
+                <video width="auto" controls>
+                    <source src="./videos/ifa.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+
+                <div class="section_pp_description mp">
+                    <h3 class="projectpage_description projectpage_title">Augmented Reality</h3>
+                    <h3 class="projectpage_description">For the realease of the new jearsey shirt from Arsenal together with Adidas we built an AR game and filter where the user could build a player with it's own face. I worked on developing some of the functionalities of this game. </h3>
+                </div>
+
+                <video class="projectpage_video" width="400" controls>
+                    <source src="./videos/adidasar.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+			
+				<div class="_footer">
+					<div class="icons">
+						<a href=""><i class="fa fa-linkedin-square"></i></a>
+						<a href=""><i class="fa fa-github"></i></a>
+					</div>
+					<div class="email">
+						isabelaa.a@live.com
+					</div>
+				</div>
+			</div>
+		</main>
+		<svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
+			<defs>
+				<filter id="filter-1" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+					<feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="3" result="warp"></feTurbulence>
+					<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="0" in="SourceGraphic" in2="warp"></feDisplacementMap>
+				</filter>
+			</defs>
+			<circle class="cursor__inner" cx="140" cy="140" r="50"></circle>
+		</svg>
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>

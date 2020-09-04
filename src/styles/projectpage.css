@@ -1,0 +1,56 @@
+body.design {
+	--color-bg: #fbfbfb;
+	--cursor-stroke: #4e4e4e;
+	--color-link-hover: #4e4e4e;
+}
+
+.design {
+	color: #d20d4c;
+}
+
+.content.project_page  {
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin: 6vw 0;
+	height: auto;
+}
+
+.projectpage_title {
+	color:  #d20d4c !important;
+}
+
+.projectpage_description {
+	margin: 0 10vw;
+	color: #4e4e4e;
+}
+
+.projectpage_img {
+	width: 100%;
+	height: auto;
+}
+
+.projectpage_gif {
+	margin: 10vw;
+    align-self: center;
+}
+
+.projectpage_video {
+	margin-bottom: 10vw;
+	align-self: center;
+}
+
+.section_pp_description {
+	margin-top: -5vw;
+    
+}
+
+.section_pp_description.mp {
+	margin: 10vw 0 5vw 0;
+}
+
+.projectpage_videogrid {
+	margin: 10vw 0;
+    width: 100vw;
+    display: flex;
+	justify-content: space-evenly;
+}
