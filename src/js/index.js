@@ -1,4 +1,7 @@
-import Cursor from './cursor';
+console.log("index");
+getURL();
+/*
+import Cursor from './cursor.js';
 
 const cursor = new Cursor(document.querySelector('.cursor'));
 
@@ -10,3 +13,11 @@ const cursor = new Cursor(document.querySelector('.cursor'));
 function scrollWin() {
     window.scrollTo(0, 500);
   }
+
+*/
+function getURL() {
+
+    const body = document.getElementsByTagName("body")[0];
+    console.log(body.style.backgroundColor);
+    console.log("The URL of this page is: " + window.location.href);
+}

@@ -1,7 +1,8 @@
-body.design {
+main.design {
+	background-color: #fbfbfb;
 	--color-bg: #fbfbfb;
 	--cursor-stroke: #4e4e4e;
-	--color-link-hover: #4e4e4e;
+	--color-link-hover: #4e4e4e;	
 }
 
 .design {
@@ -11,7 +12,7 @@ body.design {
 .content.project_page  {
 	align-items: flex-start;
 	justify-content: flex-start;
-	margin: 6vw 0;
+	padding: 6vw 0;
 	height: auto;
 }
 
@@ -22,6 +23,8 @@ body.design {
 .projectpage_description {
 	margin: 0 10vw;
 	color: #4e4e4e;
+	line-height: 2;
+    font-weight: normal;
 }
 
 .projectpage_img {

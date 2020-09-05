@@ -22,7 +22,7 @@ body {
     --color-content: #4e4e4e;
 	--font-alt: freight-display-pro, serif;
 	color: var(--color-text);
-	background-color: var(--color-bg);
+	/*background-color: var(--color-bg);*/
 	font-family: soleil, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -30,6 +30,10 @@ body {
     --cursor-stroke: #ffffff;
     --cursor-fill: none;
     --cursor-stroke-width: 1px;
+}
+
+main, .default {
+	background-color: #0e0e0e;
 }
 
 a {
@@ -151,13 +155,13 @@ a:focus {
 	position: relative;
 	flex-direction: column;
 	width: 100vw;
-	height: calc(100vh - 13rem);
+	/*height: calc(100vh - 13rem);*/
 	position: relative;
 	justify-content: flex-start;
 }
 
 ._projects {
-	margin: 0 10vw;
+	padding: 0 10vw;
 }
 
 ._projects h3 {
@@ -201,11 +205,11 @@ a:focus {
 }
 
 ._about {
-	margin: 10vw 10vw;
+	padding: 10vw 10vw;
 }
 
 ._contact {
-    margin: 5vw 10vw;
+    padding: 5vw 10vw;
 }
 
 ._projects h1, ._about h1, ._contact h1 {
@@ -326,7 +330,7 @@ a:focus {
 }
 
 ._footer {
-	padding: 0.7vw 5vw;
+	padding: 0.7vw 3.5vw;
     color: #4c4e4e;
     background-color: #0a0a0a;
     width: 100vw;
@@ -335,12 +339,12 @@ a:focus {
 }
 
 ._footer i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 10px;
 }
 
 .email {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .menu {
